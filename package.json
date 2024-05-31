@@ -1,5 +1,5 @@
 {
-  "homepage": "/knowledge-bank",
+  "homepage": "/Knowledge-Bank",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
