@@ -13,7 +13,7 @@ export default function Top() {
                         {/* SignInPage로 이동하는 Link를 추가합니다. */}
                         <Link to="/signin"><p>로그인</p></Link>
                         <p>|</p>
-                        <p>회원가입</p>
+                        <Link to="/Register"><p>회원가입</p></Link>
                     </div>
                 </div>
             </div>
@@ -21,11 +21,10 @@ export default function Top() {
             <div id="top_nav">
                 <div className="warp">
                     <div className="top_nav_menu">
-                        <p>공지사항</p>
-                        <p>MY페이지</p>
-                        <p>게시판</p>
-                        <p>이벤트</p>
-                        <p>로그인</p>
+                        <Link to="/Gongji"><p>공지사항</p></Link>
+                        <Link to="/MyPage"><p>MY페이지</p></Link>
+                        <Link to="/Post"><p>게시판</p></Link>
+                        <Link to="/EventPage"><p>이벤트</p></Link>
                     </div>
                 </div>
             </div>

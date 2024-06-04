@@ -1,10 +1,12 @@
 import Top from "../Top";
 import Bottom from "../Bottom";
 
+import { Link } from 'react-router-dom';
+
 function Mid() {
     return (
         <>
-            <Top/>
+            <Top />
             <div id="mid">
                 <div className="warp">
                     <div className="search">
@@ -24,18 +26,22 @@ function Mid() {
                             <img src="https://i.ibb.co/QMtgGbj/4-1.png" alt="강의 보러가기" />
                             <p>강의 보러가기</p>
                         </div>
-                        <div>
-                            <img src="https://i.ibb.co/GcTNyZ7/book-1.png" alt="게시판" />
-                            <p>게시판</p>
-                        </div>
-                        <div>
-                            <img src="https://i.ibb.co/0rSTdNF/3.png" alt="MY페이지" />
-                            <p>MY페이지</p>
-                        </div>
+                        <Link to="/Post">
+                            <div>
+                                <img src="https://i.ibb.co/GcTNyZ7/book-1.png" alt="게시판" />
+                                <p>게시판</p>
+                            </div>
+                        </Link>
+                        <Link to="/MyPage">
+                            <div>
+                                <img src="https://i.ibb.co/0rSTdNF/3.png" alt="MY페이지" />
+                                <p>MY페이지</p>
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>
-            <Bottom/>
+            <Bottom />
         </>
     );
 }

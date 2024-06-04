@@ -1,6 +1,8 @@
 import Top from '../Top';
 import Bottom from '../Bottom';
 
+import { Link } from 'react-router-dom';
+
 function SignInPage() {
     return (
         <>
@@ -14,7 +16,7 @@ function SignInPage() {
                     </div>
                     <div className='sign_text'>
                         <p>아직도 회원이 아니신가요?</p>
-                        <p>회원가입</p>
+                        <Link to="/Register"> <p>회원가입</p></Link>
                     </div>
                     <input type="button" value="로그인" className='sign_btn' />
                 </div>

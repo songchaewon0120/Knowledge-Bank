@@ -60,6 +60,7 @@ input[type="text"] {
     justify-content: space-around;
     font-size: 1.6vw;
     color: #747474;
+    align-items: center;
 }
 
 .bottom_text_font {
@@ -143,6 +144,12 @@ input[type="text"] {
 }
 
 .main_icon_btn div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_icon_btn a {
     display: flex;
     align-items: center;
     flex-direction: column;
