@@ -6,7 +6,7 @@ export default function Bottom() {
             <div id="bottom">
                 <div className="warp bottom_warp">
                     <div className="bottom_1_line">
-                        <img src="https://i.ibb.co/bR6zWjz/knowledge-bank-logo-2-2.png"
+                        <img src="https://i.ibb.co/qCSMkFR/Group-1.png"
                             alt="knowledge-bank-logo-2-2" />
                         <div className="bottom_text_group">
                             <div className="bottom_text_1 bottom_text_font">
@@ -25,7 +25,7 @@ export default function Bottom() {
                             <p>© KNOWLEDGEBANK. All rights reserved.</p>
                         </div>
                         <div className="bottom_logo">
-                            <img src="https://i.ibb.co/PQhmBW3/KAICON-removebg-preview.png"
+                            <img src="https://i.ibb.co/8PTpb5N/KAICON-removebg-preview.png"
                                 alt="KAICON-removebg-preview" />
                             <img src="https://i.ibb.co/Ph2g4bG/INSTAICON-removebg-preview.png"
                                 alt="INSTAICON-removebg-preview" />
