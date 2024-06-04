@@ -1,6 +1,6 @@
 {
 	"private": true,
-	"homepage": "/Knowledge-Bank",
+	"homepage": "https://songchaewon0120.github.io/Knowledge-Bank",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.17.0",
 		"@testing-library/react": "^13.4.0",
