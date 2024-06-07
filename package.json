@@ -8,15 +8,14 @@
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1",
 		"react-router-dom": "^6.23.1",
-		"react-scripts": "^3.0.1",
+		"react-scripts": "5.0.1",
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
 		"start": "react-scripts start ./src/index.jsx",
 		"build": "react-scripts build ./src/index.jsx",
 		"test": "react-scripts test ./src/index.jsx",
-		"eject": "react-scripts eject ./src/index.jsx",
-		"deploy": "npm run build && echo. > ./build/.nojekyll && gh-pages -d build"
+		"eject": "react-scripts eject ./src/index.jsx"
 	},
 	"eslintConfig": {
 		"extends": [
