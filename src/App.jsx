@@ -5,8 +5,10 @@ import SignInPage from './main/SignInPage'; // SignInPage를 import 합니다.
 import Register from './main/Register'; 
 import MyPage from './main/MyPage'; 
 import Post from './main/Post'; 
-import EventPage from './main/EventPage'; 
 import Gongji from './main/Gongji'; 
+import SugangPage from './main/SugangPage';
+import EventPage from './main/EventPage'; 
+import EventPages from './main/EventPages';
 
 import "./csscss.css";
 import "./chaeCss.css";
@@ -41,7 +43,15 @@ const routers = [
 	{
 		path: "/Gongji",
 		element: <Gongji />,
-	}
+	},
+	{
+		path: "/SugangPage",
+		element: <SugangPage />,
+	},
+	{
+		path: "/EventPages",
+		element: <EventPages />
+	},
 ];
 
 const router = createBrowserRouter(routers, {

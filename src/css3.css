@@ -54,8 +54,9 @@
 }
 
 .box_sub {
-    padding: 50px;
+    padding: 50px 50px 50px 100px;
 }
+
 
 .top_text {
     display: flex;
@@ -87,6 +88,74 @@
     margin-left: 20px;
 }
 
-.img-main{
+.img-main {
     width: 6vw;
+}
+
+.list_text a {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #858585;
+}
+
+.list_text :hover {
+    color: black;
+    cursor: pointer;
+}
+
+.gang_box{
+    margin-top: 14px;
+    padding: 20px;
+}
+
+.gang_box>div {
+    display: grid;
+    grid-template-columns: minmax(min-content, max-content) auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    border: 1px solid #858585;
+    border-radius: 15px;
+    background-color: #f6fcff;
+
+    >img {
+        width: 13vw;
+        border-radius: 15px;
+    }
+
+    >div:last-child {
+        align-self: end;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .gang_text {
+        >p:first-child {
+            font-size: 1.3rem;
+        }
+
+        >p:last-child {
+            font-size: 1.2rem;
+        }
+    }
+
+    .gang_btn div {
+        font-size: 1.2rem;
+        background-color: #D4EDFF;
+        padding: 10px;
+        border-radius: 10px;
+        width: 20vw;
+        text-align: center;
+    }
+}
+
+.gang_btn div:hover {
+    cursor: pointer;
+}
+
+#bottom{
+    margin-top: 15px;
+}
+
+.envent_img{
+    width: 100%;
 }
