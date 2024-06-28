@@ -1,14 +1,17 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import React, { useState } from 'react';
 
 import Mid from './main/MainPage';
 import SignInPage from './main/SignInPage'; // SignInPage를 import 합니다.
-import Register from './main/Register'; 
-import MyPage from './main/MyPage'; 
-import Post from './main/Post'; 
-import Gongji from './main/Gongji'; 
+import Register from './main/Register';
+import MyPage from './main/MyPage';
+import Post from './main/Post';
+import Gongji from './main/Gongji';
 import SugangPage from './main/SugangPage';
-import EventPage from './main/EventPage'; 
+import EventPage from './main/EventPage';
 import EventPages from './main/EventPages';
+// import ImageSlider form './main/ImageSlider';
+
 
 import "./csscss.css";
 import "./chaeCss.css";
@@ -51,7 +54,11 @@ const routers = [
 	{
 		path: "/EventPages",
 		element: <EventPages />
-	},
+	}, {
+	},{
+		// path: "/ImageSlider",
+		// element: <ImageSlider />
+	}
 ];
 
 const router = createBrowserRouter(routers, {

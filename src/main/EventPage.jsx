@@ -1,3 +1,4 @@
+import React from 'react';
 import Top from '../Top';
 import Bottom from '../Bottom';
 import EventPages from './EventPages';
@@ -14,9 +15,7 @@ function EventPage() {
                 <div className='box_border warp'>
                     <div className='box_sub'>
                         <div className='top_text'>
-                            <EventPages/>
-                            {/* <img src="https://i.ibb.co/RYt1y3P/sad.png" alt="슬픈얼굴 아이콘" />
-                            <span>공지사항이 없습니다. 공지사항이 추가되면 리액트로 뜨게끔 하기</span> */}
+                            <EventPages />
                         </div>
                     </div>
                 </div>

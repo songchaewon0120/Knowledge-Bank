@@ -59,12 +59,19 @@
 
 
 .top_text {
+    >img:not(:first-child) {
+        margin-top: 40px;
+    }
+
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
 
     background-color: antiquewhite;
     padding: 40px;
     border-radius: 15px;
+
 
     >img {
         margin-right: 50px;
@@ -96,6 +103,7 @@
     font-size: 1.3rem;
     font-weight: bold;
     color: #858585;
+    padding: 0 50px;
 }
 
 .list_text :hover {
@@ -103,7 +111,7 @@
     cursor: pointer;
 }
 
-.gang_box{
+.gang_box {
     margin-top: 14px;
     padding: 20px;
 }
@@ -152,10 +160,13 @@
     cursor: pointer;
 }
 
-#bottom{
+#bottom {
     margin-top: 15px;
 }
 
-.envent_img{
-    width: 100%;
+.envent_img {
+    max-width: 40vw;
+    max-height: 100%;
+    display: block;
 }
+

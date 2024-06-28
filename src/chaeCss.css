@@ -135,7 +135,8 @@ input[type="text"] {
     background-color: gold;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
 }
 
